@@ -12,7 +12,7 @@ const Artist = ({ name, photo, url }) => {
                             <path d="M24 0h-24v24h24v-24z" />
                         </svg>
                     )}
-                    actual={({ imageProps }) => <img className='image is-square is-loaded' {...imageProps} />}
+                    actual={({ imageProps }) => <img alt='artist photo' className='image is-square is-loaded' {...imageProps} />}
                 />
             </figure>
 
