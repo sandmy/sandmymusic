@@ -1,9 +1,14 @@
 import Linky from "components/utils/Linky";
+import Head from 'next/head';
 
 const Demo = () => {
 
     return (
         <div className='container has-top-margin article-content'>
+            <Head>
+                <title>Envia tu demo | Sandmy Music</title>
+                <meta name="description" content="Comunidad de artistas para la Generación Z" />
+            </Head>
             Sandmy Music busca estar más cerca de los artistas, por eso es necesario que formes parte de la comunidad para que puedas enviar tu demo.
             <br/>
             <br/>   

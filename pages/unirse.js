@@ -1,6 +1,7 @@
 import { useForm } from '@formcarry/react';
 import Icon from 'components/utils/Icon';
 import TextareaAutosize from 'react-textarea-autosize';
+import Head from 'next/head';
 
 const Unirse = () => {
 
@@ -21,6 +22,10 @@ const Unirse = () => {
 
     return (
         <div className='container has-top-margin'>
+            <Head>
+                <title>Unirse | Sandmy Music</title>
+                <meta name="description" content="Comunidad de artistas para la Generación Z" />
+            </Head>
             <form className='box-container' onSubmit={submit}>
                 <div className='grid:2 gap'>
                     <div>
