@@ -30,7 +30,7 @@ const Footer = () => {
                     <Linky to='/about'>
                         Sobre nosotros
                     </Linky>
-                    <a href="https://go.sandmy.com/musicdoc" target="_blank" rel='noreferrer'>
+                    <a href="https://go.sandmy.com/guGn" target="_blank" rel='noreferrer'>
                         Mas información
                     </a>
                 </div>
