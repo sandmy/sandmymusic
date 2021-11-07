@@ -27,6 +27,9 @@ const Footer = () => {
                     <Linky to='/about'>
                         Sobre nosotros
                     </Linky>
+                    <a href="https://go.sandmy.com/musicdoc" target="_blank" rel='noreferrer'>
+                        Mas información
+                    </a>
                 </div>
                 <div className="footer-link">
                     <h2>

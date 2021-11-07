@@ -3,7 +3,6 @@ import Linky from "components/utils/Linky";
 const Navbar = () => {
     const openNavbar = () => {
         document.getElementById('navbar').classList.toggle('is-active');
-        console.log('test');
     }
 
     return (
