@@ -25,6 +25,9 @@ const Navbar = () => {
                     <Linky to="/about" className="nav-item" onClick={openNavbar}>
                         Sobre nosotros
                     </Linky>
+                    <a href="https://go.sandmy.com/musicdoc" className="nav-item" target="_blank" rel='noreferrer'>
+                        ¿Como funciona?
+                    </a>
                     <Linky to="/demo" className="nav-item" onClick={openNavbar}>
                         Envia tu demo
                     </Linky>
