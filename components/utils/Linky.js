@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-const Linky = ({ children, to, className }) => {
+const Linky = ({ children, to, className, onClick }) => {
 
     return (
         <Link href={to}>
-            <a className={className}>
+            <a className={className} onClick={onClick}>
                 {children}
             </a>
         </Link>

@@ -11,7 +11,7 @@ const Artists = () => {
         const getData = async () => {
             const result = await getSheetData('https://docs.google.com/spreadsheets/d/e/2PACX-1vQM9BaUA44uAor-GIfWyXlrElE4OD_rVR5MqP3-6njL_6MwptgpDPh6cRPqEMW14c6ZXFLboPm0yw5s/pub?output=tsv');
             setData(result);
-            console.log(result);
+            // console.log(result);
         }
         getData();
     }, []);
